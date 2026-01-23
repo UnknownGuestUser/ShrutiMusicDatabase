@@ -42,4 +42,4 @@ async def add_allbot(client, message):
         await status.edit(f"🎉 Done! {bot_username} Added.\n\n✔ {done} chats\n✘ {failed} failed.")
 
     except Exception as e:
-        await message.reply(f"Error: `{e}`"
+        await message.reply(f"Error: `{e}`")
