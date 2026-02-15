@@ -7,22 +7,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from ShrutixMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, nand
-from ShrutixMusic.core.call import Shruti
-from ShrutixMusic.utils import seconds_to_min, time_to_seconds
-from ShrutixMusic.utils.channelplay import get_channeplayCB
-from ShrutixMusic.utils.decorators.language import languageCB
-from ShrutixMusic.utils.decorators.play import PlayWrapper
-from ShrutixMusic.utils.formatters import formats
-from ShrutixMusic.utils.inline import (
+from AarohixMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, nand
+from AarohixMusic.core.call import Shruti
+from AarohixMusic.utils import seconds_to_min, time_to_seconds
+from AarohixMusic.utils.channelplay import get_channeplayCB
+from AarohixMusic.utils.decorators.language import languageCB
+from AarohixMusic.utils.decorators.play import PlayWrapper
+from AarohixMusic.utils.formatters import formats
+from AarohixMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from ShrutixMusic.utils.logger import play_logs
-from ShrutixMusic.utils.stream.stream import stream
+from AarohixMusic.utils.logger import play_logs
+from AarohixMusic import stream
 from config import BANNED_USERS, lyrical
 
 
