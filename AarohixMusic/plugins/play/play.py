@@ -28,7 +28,7 @@ from config import BANNED_USERS, lyrical
 
 
 def load_blacklist_words():
-    blacklist_path = "ShrutixMusic/assets/blacklistsearch.txt"
+    blacklist_path = "AarohixMusic/assets/blacklistsearch.txt"
     blacklist_words = []
     
     try:
@@ -927,5 +927,6 @@ async def slider_queries(client, CallbackQuery, _):
         return await CallbackQuery.edit_message_media(
             media=med, reply_markup=InlineKeyboardMarkup(buttons)
         )
+
 
 
