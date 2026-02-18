@@ -23,7 +23,7 @@ from AarohixMusic.utils.inline import (
     track_markup,
 )
 from AarohixMusic.utils.logger import play_logs
-from AarohixMusic import stream
+from AarohixMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
@@ -927,6 +927,7 @@ async def slider_queries(client, CallbackQuery, _):
         return await CallbackQuery.edit_message_media(
             media=med, reply_markup=InlineKeyboardMarkup(buttons)
         )
+
 
 
 
