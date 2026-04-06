@@ -170,8 +170,8 @@ async def get_thumb(videoid: str):
         canvas.paste(art, (circle_x, circle_y), art)
 
         tl_font = ImageFont.truetype(FONT_BOLD_PATH, 34)
-        draw.text((28+1, 18+1), "AarohixMusic", fill=TEXT_SHADOW, font=tl_font)
-        draw.text((28, 18), "AarohixMusic", fill=TEXT_WHITE, font=tl_font)
+        draw.text((28+1, 18+1), "AnanyaxMusic", fill=TEXT_SHADOW, font=tl_font)
+        draw.text((28, 18), "AnanyaxMusic", fill=TEXT_WHITE, font=tl_font)
 
         info_x = circle_x + thumb_size + 60
         max_text_w = CANVAS_W - info_x - 48
